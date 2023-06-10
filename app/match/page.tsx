@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import Form from "@/app/league/_components/CreateMatchForm";
 
 export default function Home() {
   return (
@@ -22,29 +21,19 @@ export default function Home() {
         </div>
       </div>
 
-      <Form/>
-
-
-
       <div className="relative flex place-items-center text-2xl font-bold">
         <div>Pool app mrdky</div>
       </div>
 
-
-
-
-
-
-
       <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-3 lg:text-center">
         <a
-          href="../"
+          href="/league"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target=""
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Back more{' '}
+            Liga{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
@@ -72,13 +61,13 @@ export default function Home() {
         </a>
 
         <a
-          href="/match"
+          href="./."
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target=""
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Zápas{' '}
+            Back{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
