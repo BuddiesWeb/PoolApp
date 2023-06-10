@@ -6,10 +6,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "cus": "npm run dev",
+    "up": "docker compose up -- prisma"
   },
   "dependencies": {
     "@prisma/client": "^4.15.0",
+    "@radix-ui/react-form": "^0.0.3",
     "@types/node": "20.2.5",
     "@types/react": "18.2.7",
     "@types/react-dom": "18.2.4",
