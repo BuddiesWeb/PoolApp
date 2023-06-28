@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Form from "./_components/CreateMatchForm";
+import { ContactForm } from "@/forms/ContactForm";
 
 export default function Home() {
   return (
@@ -30,9 +31,7 @@ export default function Home() {
         <div>Pool app mrdky</div>
       </div>
 
-
-
-
+      <ContactForm/>
 
 
 
